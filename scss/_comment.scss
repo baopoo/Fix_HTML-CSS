@@ -1,0 +1,65 @@
+.comment {
+  margin: 0 40px;
+  background: url("../assets/comment.jpg") no-repeat;
+  background-size: cover;
+  padding: 60px 47px 60px 60px;
+  gap: 67px;
+
+  @include xl {
+    margin: 0 80px;
+  }
+  @include xxl {
+    margin: 0 160px;
+  }
+
+  @include tablet {
+    margin: 0;
+    padding: 80px 32px;
+  }
+
+  @include mobile {
+    padding: 80px 16px;
+  }
+
+  &-content {
+    width: 60%;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.01);
+    border: 0.900926px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(13.5139px);
+    border-radius: 8px;
+    align-self: stretch;
+
+    @include tablet {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    img {
+      margin-bottom: 24px;
+    }
+  }
+
+  &-author {
+    width: 40%;
+
+    @include tablet {
+      width: 100%;
+      gap: 16px;
+    }
+
+    img {
+      margin-bottom: 22px;
+
+      @include tablet {
+        margin-bottom: 0;
+      }
+
+      @include mobile {
+        width: 72px;
+        height: 72px;
+        margin: auto 0;
+      }
+    }
+  }
+}

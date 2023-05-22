@@ -1,0 +1,109 @@
+.information {
+  background: url("./assets/unsplash.png");
+  margin-top: 129px;
+  padding: 90px 0 146px 40px;
+  gap: 10px;
+
+  @include xl {
+    padding: 90px 0 146px 80px;
+  }
+  @include xxl {
+    padding: 90px 0 146px 160px;
+  }
+
+  @include tablet {
+    padding: 90px 160px 146px;
+    margin-top: 0;
+  }
+
+  @include mobile {
+    padding: 80px 16px;
+  }
+
+  &-contact {
+    max-width: 361px;
+    gap: 24px;
+
+    @include tablet {
+      width: 100%;
+    }
+
+    &_box {
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.01);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(8px);
+      border-radius: 8px;
+
+      @include tablet {
+        max-width: 361px;
+      }
+
+      @include mobile {
+        padding: 40px;
+      }
+
+      &-support {
+        margin-bottom: 24px;
+      }
+
+      &-phone {
+        gap: 33px;
+        margin-bottom: 9px;
+      }
+
+      &-email {
+        gap: 33px;
+      }
+    }
+  }
+
+  &-wrapper {
+    min-width: 613px;
+
+    @include xl {
+      min-width: 705px;
+    }
+
+    @include tablet {
+      min-width: 100%;
+      margin-top: 24px;
+    }
+
+    &-form {
+      max-width: 400px;
+      padding: 40px;
+      border-radius: 8px;
+      gap: 16px;
+      position: relative;
+      z-index: 2;
+
+      label {
+        margin-bottom: 8px;
+      }
+
+      @include tablet {
+        margin: 0 auto;
+      }
+
+      &_button {
+        gap: 28px;
+        gap: 8;
+        button {
+          max-width: 80px !important;
+          padding: 10px 20px;
+          border-radius: 32px;
+        }
+        &-note {
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+    }
+    &-image {
+      top: -37%;
+      right: 0;
+      z-index: 1;
+    }
+  }
+}

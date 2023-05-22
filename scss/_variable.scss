@@ -1,0 +1,122 @@
+@mixin mobile {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin xxl {
+  @media (min-width: 1400px) {
+    @content;
+  }
+}
+
+$primary-color: #31cb9e;
+$white-color: #ffffff;
+$black-color: #030d24;
+$gray-color: #4d5562;
+$dark-color: #272f3e;
+$card-color: #f1f3f5;
+$light-color: #888e9c;
+
+.gradient-color {
+  background: linear-gradient(124.32deg, #31cb9e 0.01%, #0faaa2 100.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.bg-color {
+  background: linear-gradient(124.32deg, #31cb9e 0.01%, #0faaa2 100.02%);
+}
+.bg-white {
+  background-color: $white-color;
+}
+.bg-footer {
+  background-color: #05122a;
+}
+.bc-dark {
+  background-color: $dark-color;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fs-normal {
+  font-style: normal;
+}
+
+.button {
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+.button--contact {
+  padding: 10px 20px;
+  border-radius: 32px;
+  max-width: 125px;
+}
+
+.text-h2 {
+  font-size: 38px;
+  line-height: 46px;
+
+  @include tablet {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+.text-h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-h4 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.text-normal {
+  font-size: 16px;
+  line-height: 24px;
+}
+.text-small {
+  font-size: 14px;
+  line-height: 22px;
+}
+.fc-white {
+  color: $white-color;
+}
+.fc-black {
+  color: $black-color;
+}
+.fc-gray {
+  color: $gray-color;
+}
+.fc-primary {
+  color: $primary-color;
+}
+.fc-light {
+  color: $light-color;
+}

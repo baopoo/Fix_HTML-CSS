@@ -1,0 +1,88 @@
+.footer {
+  padding: 80px 40px 24px;
+
+  @include xl {
+    padding: 80px 80px;
+  }
+  @include xxl {
+    padding: 80px 160px;
+  }
+
+  @include tablet {
+    padding: 80px 32px;
+  }
+
+  @include mobile {
+    padding: 80px 16px;
+  }
+
+  &-top {
+    @include tablet {
+      gap: 40px;
+    }
+
+    &_brand {
+      gap: 24px;
+
+      &-logo {
+        width: 172px;
+        height: 36px;
+      }
+
+      &-note {
+        @include mobile {
+          margin-bottom: 16px;
+        }
+      }
+
+      &-menu {
+        gap: 24px;
+      }
+    }
+
+    &_contact {
+      &-title {
+        line-height: 22px;
+        margin-bottom: 8px;
+      }
+      &-connect {
+        line-height: 17px;
+        gap: 4px;
+        margin-bottom: 24px;
+      }
+
+      &-social {
+        gap: 12px;
+
+        i {
+          font-size: 20px;
+          padding: 13px 15px;
+        }
+
+        i:first-child {
+          padding: 13px 18px;
+        }
+      }
+    }
+  }
+
+  &-bot {
+    padding-top: 24px;
+    border-top: 1px solid $dark-color;
+    margin-top: 58px;
+
+    @include tablet {
+      gap: 32px;
+      padding-bottom: 40px;
+    }
+
+    &_menu {
+      gap: 24px;
+
+      @include tablet {
+        gap: 18px;
+        justify-content: unset;
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.feature {
+  gap: 40px;
+  padding: 84px 100px 95px;
+
+  @include xxl {
+    padding: 84px 255px 95px;
+  }
+
+  @include tablet {
+    padding: 80px 32px;
+  }
+
+  @include mobile {
+    padding: 80px 16px;
+  }
+
+  &-content {
+    width: 500px;
+
+    @include tablet {
+      width: 100%;
+    }
+
+    &_title {
+      margin-bottom: 8px;
+    }
+  }
+
+  &-list {
+    gap: 20px;
+
+    div {
+      gap: 20px;
+      width: 100%;
+    }
+
+    &_item {
+      gap: 16px;
+      width: 455px;
+      height: 72px;
+      background: $card-color;
+      padding: 24px 20px;
+      @include mobile {
+        width: 100%;
+      }
+    }
+  }
+
+  &-button button {
+    margin-bottom: 12px;
+  }
+  &-button p {
+    margin: 0;
+  }
+}

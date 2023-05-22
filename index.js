@@ -30,7 +30,7 @@ const onClickToggleMenu = () => {
 }
 
 const changeSliderService = () => {
-    let sliderItemWidth = sliderServiceItem[0].offsetWidth;
+    let sliderItemWidth = sliderServiceItem[0].offsetWidth + 16;
     sliderDot[checkSliderLength].classList.remove('gradient-color');
     checkSliderLength++;
     if (checkSliderLength > sliderLength - 1) {

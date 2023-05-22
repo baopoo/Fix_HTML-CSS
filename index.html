@@ -1,76 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="main">
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-wrapper">
-                <div class="hero-header row justify-content-between">
-                    <div class="hero-header_logo col-9 col-md-3 align-self-center">
-                        <img src="./assets/Logo.png" alt="">
-                    </div>
-                    <i class="hero-header_button col-2 fa-sharp fa-solid fa-bars d-md-none text-end align-self-center d-block fc-white" onclick="onClickToggleMenu()"></i>
-                    <div class="hero-header-right text-sm-center col-md-9 d-none d-md-flex row justify-content-md-between fc-white fw-500 text-normal fs-normal">
-                        <div class="hero-header-right_menu d-flex flex-column flex-md-row gap-md-3 col-12 gap-lg-5 col-md-7 align-items-md-center">
-                            <div class="hero-header-right_menu-item">Home</div>
-                            <div class="hero-header-right_menu-item">Features</div>
-                            <div class="hero-header-right_menu-item">Demo</div>
-                            <div class="hero-header-right_menu-item">About us</div>
-                        </div>
-                        <div class="hero-header-right_contact fs-normal d-block d-md-none">
-                            <div class="hero-header-right_contact-title fw-500 gradient-color text-body">
-                                Let’s keep in touch
-                            </div>
-                            <div class="hero-header-right_contact-connect fw-400 text-small fc-white d-flex flex-column">
-                                <div>
-                                    +61 412 774 034
-                                </div>
-                                <div>
-                                    info@easyserv.au
-                                </div>
-                            </div>
-                            <div class="footer-top_contact-social fc-white d-flex justify-content-sm-center">
-                                <i class="fa-brands fa-facebook-f bc-dark rounded-circle"></i>                      
-                                <i class="fa-brands fa-instagram bc-dark rounded-circle"></i>
-                                <i class="fa-brands fa-linkedin-in bc-dark rounded-circle"></i>
-                            </div>
-                        </div>
-                        <div class="hero-header-right_button col-md-5 fc-white d-flex flex-column flex-md-row gap-md-3 gap-lg-4 justify-content-center justify-content-md-end align-items-center">
-                            <span class="hero-header-right_button-login text-center">Log in</span>
-                            <button class="hero-header-right_button-contact button button--contact bg-color fc-black">Contact us</button>
-                        </div>
-                    </div>
-                </div>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-wrapper">
+          <div class="hero-header row justify-content-between">
+            <div class="hero-header_logo col-9 col-md-3 align-self-center">
+              <img src="./assets/Logo.png" alt="" />
             </div>
-            <div class="hero-introduce text-center">
-                <div class="hero-introduce_content fc-white fs-nomal text-center d-flex flex-column justify-content-center align-items-center">
-                    <div class="hero-introduce_content-title text-h2 fw-500">
-                        The <span class="gradient-color">EASY</span> way for your customers to book and pay online, 24/7
-                    </div>
-                    <div class="hero-introduce_content-description text-normal fw-400">
-                        Empower your customers to self-manage their service bookings anywhere, anytime. Optionally include online payments via a choice of online payment gateways.
-                    </div>
+            <i
+              class="hero-header_button col-2 fa-sharp fa-solid fa-bars d-md-none text-end align-self-center d-block fc-white"
+              onclick="onClickToggleMenu()"
+            ></i>
+            <div
+              class="hero-header-right text-sm-center col-md-9 d-none d-md-flex row justify-content-md-between fc-white fw-500 text-normal fs-normal"
+            >
+              <div
+                class="hero-header-right_menu d-flex flex-column flex-md-row gap-md-3 col-12 gap-lg-5 col-md-7 align-items-md-center"
+              >
+                <div class="hero-header-right_menu-item">Home</div>
+                <div class="hero-header-right_menu-item">Features</div>
+                <div class="hero-header-right_menu-item">Demo</div>
+                <div class="hero-header-right_menu-item">About us</div>
+              </div>
+              <div
+                class="hero-header-right_contact fs-normal d-block d-md-none"
+              >
+                <div
+                  class="hero-header-right_contact-title fw-500 gradient-color text-body"
+                >
+                  Let’s keep in touch
                 </div>
-                <img src="./assets/HeroImage.png" alt="" class="hero-introduce_image">
+                <div
+                  class="hero-header-right_contact-connect fw-400 text-small fc-white d-flex flex-column"
+                >
+                  <div>+61 412 774 034</div>
+                  <div>info@easyserv.au</div>
+                </div>
+                <div
+                  class="footer-top_contact-social fc-white d-flex justify-content-sm-center"
+                >
+                  <i class="fa-brands fa-facebook-f bc-dark rounded-circle"></i>
+                  <i class="fa-brands fa-instagram bc-dark rounded-circle"></i>
+                  <i
+                    class="fa-brands fa-linkedin-in bc-dark rounded-circle"
+                  ></i>
+                </div>
+              </div>
+              <div
+                class="hero-header-right_button col-md-5 fc-white d-flex flex-column flex-md-row gap-md-3 gap-lg-4 justify-content-center justify-content-md-end align-items-center"
+              >
+                <span class="hero-header-right_button-login text-center"
+                  >Log in</span
+                >
+                <button
+                  class="hero-header-right_button-contact button button--contact bg-color fc-black"
+                >
+                  Contact us
+                </button>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="hero-introduce text-center">
+          <div
+            class="hero-introduce_content fc-white fs-nomal text-center d-flex flex-column justify-content-center align-items-center"
+          >
+            <div class="hero-introduce_content-title text-h2 fw-500">
+              The <span class="gradient-color">EASY</span> way for your
+              customers to book and pay online, 24/7
+            </div>
+            <div class="hero-introduce_content-description text-normal fw-400">
+              Empower your customers to self-manage their service bookings
+              anywhere, anytime. Optionally include online payments via a choice
+              of online payment gateways.
+            </div>
+          </div>
+          <img
+            src="./assets/HeroImage.png"
+            alt=""
+            class="hero-introduce_image"
+          />
+        </div>
+      </section>
 
-        <!-- Service Section -->
-        <section class="service">
+      <!-- Service Section -->
+      <section class="service">
             <div class="service-title text-h2 fw-500 text-center">
                 The modern service experience <br> must be <span class="gradient-color">EASY</span>
             </div>
             <div class="service-slider">
-                <div class="service-steps row gap-md-3 flex-nowrap">
+                <div class="service-steps row gap-3 flex-nowrap">
                     <div class="service-steps_card col-12 col-md-4">
                         <img class="service-steps_card-icon" src="./assets/card1.png">
                         </img>
@@ -132,224 +168,318 @@
             </div>
         </section>
 
+      <!-- Section payment -->
+      <section class="payment row flex-column-reverse flex-lg-row">
+        <img
+          src="./assets/servicepayment.png"
+          alt=""
+          class="payment_image col-12 col-lg-8"
+        />
+        <div
+          class="payment_content fs-nomal d-flex flex-column col-12 col-lg-4"
+        >
+          <div class="payment_content-title fw-500 fc-black text-h2">
+            <span class="gradient-color">Multiple</span> payment <br />
+            options
+          </div>
+          <div class="payment_content-description fw-400 text-normal fc-gray">
+            Take payments up front to save customers time at pickup and avoid no
+            shows
+          </div>
+          <div class="payment_content-method d-flex">
+            <img src="./assets/pm1.png" alt="" />
+            <img src="./assets/pm2.png" alt="" />
+            <img src="./assets/pm3.png" alt="" />
+            <img src="./assets/pm4.png" alt="" />
+          </div>
+        </div>
+      </section>
 
+      <!-- Solution section -->
+      <section class="solution fs-nomal position-relative">
+        <div class="solution_content text-center mx-auto">
+          <div class="solution_content-title fw-500 text-h2 fc-white">
+            <span class="gradient-color">End-to-end</span> solution
+          </div>
+          <div class="solution_content-description fw-400 text-normal fc-white">
+            As a business owner or workshop administrator, you have all of the
+            information you need at your fingertips in a modern, easy to use
+            interface. Managing your bookings is simple, saves you time and
+            improves profitability
+          </div>
+        </div>
+        <div
+          class="solution_application fw-400 fc-white text-h4 d-block d-lg-flex justify-content-between text-center"
+        >
+          <div>
+            <img src="./assets/solution1.png" alt="" />
+            <div>Online Bookings & Payments</div>
+          </div>
+          <img
+            src="./assets/subtract.png"
+            alt=""
+            class="solution_subtract m-lg-auto"
+          />
+          <div>
+            <img src="./assets/solution2.png" alt="" />
+            <div>Booking Management</div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Section payment -->
-        <section class="payment row flex-column-reverse flex-lg-row">
-            <img src="./assets/servicepayment.png" alt="" class="payment_image col-12 col-lg-8">
-            <div class="payment_content fs-nomal d-flex flex-column col-12 col-lg-4">
-                <div class="payment_content-title fw-500 fc-black text-h2">
-                    <span class="gradient-color">Multiple</span> payment <br> options
-                </div>
-                <div class="payment_content-description fw-400 text-normal fc-gray">
-                    Take payments up front to save customers time at pickup and avoid no shows
-                </div>
-                <div class="payment_content-method d-flex">
-                    <img src="./assets/pm1.png" alt="">
-                    <img src="./assets/pm2.png" alt="">
-                    <img src="./assets/pm3.png" alt="">
-                    <img src="./assets/pm4.png" alt="">
-                </div>
+      <!-- Feature Section -->
+      <section class="feature fs-nomal d-flex flex-column">
+        <div class="feature-content text-center mx-auto">
+          <div class="feature-content_title fw-500 fc-black text-h2">
+            <span class="gradient-color">Additional</span> features
+          </div>
+          <div class="feature-content_description fw-400 fc-gray text-normal">
+            The Easyserv Online Booking System is packed with smart features
+            designed to improve the customer experience and reduce
+            administration, delivering productivity and increasing profit
+          </div>
+        </div>
+        <div
+          class="feature-list d-flex justify-content-between flex-wrap flex-lg-nowrap"
+        >
+          <div class="d-flex justify-content-between flex-column">
+            <div class="feature-list_item d-flex align-items-center">
+              <img src="./assets/Icon.png" alt="" />
+              <span>Promo codes forcustomer retention</span>
             </div>
-        </section>
+            <div class="feature-list_item d-flex align-items-center">
+              <img src="./assets/icon2.png" alt="" />
+              <span>Service reminder emails & SMS</span>
+            </div>
+            <div class="feature-list_item d-flex align-items-center">
+              <img src="./assets/icon4.png" alt="" />
+              <span>Workshop administration portal</span>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between flex-column">
+            <div class="feature-list_item d-flex align-items-center">
+              <img src="./assets/Icon1.png" alt="" />
+              <span>Single workshop or Multi-site functionality</span>
+            </div>
+            <div class="feature-list_item d-flex align-items-center">
+              <img src="./assets/icon3.png" alt="" />
+              <span>Customer login and service history</span>
+            </div>
+            <div class="feature-list_item d-flex align-items-center">
+              <img src="./assets/icon5.png" alt="" />
+              <span>Many more features</span>
+            </div>
+          </div>
+        </div>
+        <div class="feature-button text-center">
+          <button
+            class="button button--contact bg-color fc-black text-normal fw-500"
+          >
+            Contact us
+          </button>
+          <p class="fw-400 text-normal fc-gray">for a demonstration today!</p>
+        </div>
+      </section>
 
-        <!-- Solution section -->
-        <section class="solution fs-nomal position-relative">
-            <div class="solution_content text-center mx-auto">
-                <div class="solution_content-title fw-500 text-h2 fc-white">
-                    <span class="gradient-color">End-to-end</span> solution
-                </div>
-                <div class="solution_content-description fw-400 text-normal fc-white">
-                    As a business owner or workshop administrator, you have all of the information you need at your fingertips in a modern, easy to use interface. Managing your bookings is simple, saves you time and improves profitability
-                </div>
+      <!-- Comment Section -->
+      <section class="comment fs-nomal d-block d-lg-flex fc-white">
+        <div class="comment-content">
+          <img src="./assets/daunhay.png" alt="" />
+          <div class="comment-content_message fw-400 text-normal">
+            Since implementing the easyserv online booking tool, we have seen a
+            massive uplift in online booking numbers. The interface and system
+            have made it super easy and simple for our customers to use, without
+            the need to call the store. It has been so efficient for our
+            frontline staff to focus more on what’s important.”​
+          </div>
+        </div>
+        <div
+          class="comment-author d-flex flex-row flex-md-column mx-md-auto align-items-center justify-content-center"
+        >
+          <img
+            src="./assets/avatarauthor.png"
+            alt=""
+            class="comment-author_avatar rounded-circle"
+          />
+          <div
+            class="d-flex flex-column align-items-md-center justify-content-center"
+          >
+            <div class="comment-author_name fw-500 text-h3">Tony Eljiz</div>
+            <div class="comment-author_jor fw-400 text-small">
+              Business Improvement Manager
             </div>
-            <div class="solution_application fw-400 fc-white text-h4 d-block d-lg-flex justify-content-between text-center">
-                <div>
-                    <img src="./assets/solution1.png" alt="">
-                    <div>
-                        Online Bookings & Payments
-                    </div>
-                </div>
-                <img src="./assets/subtract.png" alt="" class="solution_subtract m-lg-auto">
-                <div>
-                    <img src="./assets/solution2.png" alt="">
-                    <div>
-                        Booking Management
-                    </div>
-                </div>
+            <div div class="comment-author_major fw-500 text-small">
+              Motorserve
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Feature Section -->
-        <section class="feature fs-nomal d-flex flex-column">
-            <div class="feature-content text-center mx-auto">
-                <div class="feature-content_title fw-500 fc-black text-h2">
-                    <span class="gradient-color">Additional</span> features
-                </div>
-                <div class="feature-content_description fw-400 fc-gray text-normal">
-                    The Easyserv Online Booking System is packed with smart features designed to improve the customer experience and reduce administration, delivering productivity and increasing profit
-                </div>
+      <!-- Informaton Section -->
+      <section
+        class="information fs-nomal d-block d-lg-flex justify-content-lg-between"
+      >
+        <div
+          class="information-contact d-flex flex-column mx-auto mx-lg-0 text-lg-left justify-content-lg-start text-center text-lg-start"
+        >
+          <div class="information-contact_title fw-500 text-h2 fc-primary">
+            Let’s keep in touch
+          </div>
+          <div class="information-contact_discription fw-400 text-h4 fc-white">
+            We are taking care of your customers, and your business.
+          </div>
+          <div class="information-contact_box fw-500 text-h3 fc-white">
+            <div
+              class="information-contact_box-support fw-500 text-start text-normal gradient-color"
+            >
+              Support & customer care
             </div>
-            <div class="feature-list d-flex justify-content-between flex-wrap flex-lg-nowrap">
-                <div class="d-flex justify-content-between flex-column">
-                    <div class="feature-list_item d-flex align-items-center">
-                        <img src="./assets/Icon.png" alt="">
-                        <span>Promo codes forcustomer retention</span>
-                    </div>
-                    <div class="feature-list_item d-flex align-items-center">
-                        <img src="./assets/icon2.png" alt="">
-                        <span>Service reminder emails & SMS</span>
-                    </div>
-                    <div class="feature-list_item d-flex align-items-center">
-                        <img src="./assets/icon4.png" alt="">
-                        <span>Workshop administration portal</span>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-between flex-column">
-                    <div class="feature-list_item d-flex align-items-center">
-                        <img src="./assets/Icon1.png" alt="">
-                        <span>Single workshop or Multi-site functionality</span>
-                    </div>
-                    <div class="feature-list_item d-flex align-items-center">
-                        <img src="./assets/icon3.png" alt="">
-                        <span>Customer login and service history</span>
-                    </div>
-                    <div class="feature-list_item d-flex align-items-center">
-                        <img src="./assets/icon5.png" alt="">
-                        <span>Many more features</span>
-                    </div>
-                </div>
+            <div
+              class="information-contact_box-phone d-flex align-items-center"
+            >
+              <i class="information-icon fa-solid fa-phone"></i>
+              <span>+61 412 774 034</span>
             </div>
-            <div class="feature-button text-center">
-                <button class="button button--contact bg-color fc-black text-normal fw-500">Contact us</button>
-                <p class="fw-400 text-normal fc-gray">for a demonstration today!</p>
+            <div
+              class="information-contact_box-email d-flex align-items-center"
+            >
+              <i class="information-icon fa-solid fa-envelope"></i>
+              <span>info@easyserv.au</span>
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="information-wrapper position-relative">
+          <div
+            class="information-wrapper-form bg-white text-small d-flex flex-column"
+          >
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input
+                type="email"
+                class="form-control"
+                id="name"
+                placeholder="Your name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Example@gmail.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="mobile"
+                >Mobile number <span class="fc-light">(optional)</span></label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="mobile"
+                placeholder="Mobile number"
+              />
+            </div>
+            <div class="form-group">
+              <label for="massage">Your message</label>
+              <textarea class="form-control" id="massage" rows="2"></textarea>
+            </div>
+            <div
+              class="information-wrapper-form_button d-flex align-items-center"
+            >
+              <button type="button" class="button bg-color fc-black fw-500">
+                Send
+              </button>
+              <span class="information-form_button-note fw-400 fc-light"
+                >By clicking on “Send” button, you agree to our Privacy
+                Policy.</span
+              >
+            </div>
+          </div>
+          <img
+            class="information-wrapper-image position-absolute d-none d-lg-block"
+            src="./assets/information.png"
+            alt=""
+          />
+        </div>
+      </section>
 
-
-        <!-- Comment Section -->
-        <section class="comment fs-nomal d-block d-lg-flex fc-white">
-            <div class="comment-content">
-                <img src="./assets/daunhay.png" alt="">
-                <div class="comment-content_message fw-400 text-normal">
-                    Since implementing the easyserv online booking tool, we have seen a massive uplift in online booking numbers. The interface and system have made it super easy and simple for our customers to use, without the need to call the store. It has been so efficient for our frontline staff to focus more on what’s important.”​
-                </div>
+      <!-- Footer Section -->
+      <section class="footer bg-footer">
+        <div
+          class="footer-top d-flex flex-column text-center text-md-left flex-md-row justify-content-between"
+        >
+          <div
+            class="footer-top_brand text-small fw-400 fs-normal d-flex flex-column"
+          >
+            <img
+              src="./assets/Logo.png"
+              alt=""
+              class="footer-top_brand-logo mx-auto mx-md-0"
+            />
+            <div class="footer-top_brand-note fc-light">
+              The modern service experience must be EASY.
             </div>
-            <div class="comment-author d-flex flex-row flex-md-column mx-md-auto align-items-center justify-content-center">
-                <img src="./assets/avatarauthor.png" alt="" class="comment-author_avatar rounded-circle">
-                <div class="d-flex flex-column align-items-md-center justify-content-center">
-                    <div class="comment-author_name fw-500 text-h3">Tony Eljiz</div>
-                    <div class="comment-author_jor fw-400 text-small">Business Improvement Manager</div>
-                    <div   div class="comment-author_major fw-500 text-small">Motorserve</div>
-                </div>
+            <div
+              class="footer-top_brand-menu fc-white d-flex flex-column flex-md-row"
+            >
+              <span class="footer-top_brand-menu_item">Home</span>
+              <span class="footer-top_brand-menu_item">Features</span>
+              <span class="footer-top_brand-menu_item">Demo</span>
+              <span class="footer-top_brand-menu_item">About us</span>
+              <span class="footer-top_brand-menu_item">Login</span>
             </div>
-        </section>
-
-
-        <!-- Informaton Section -->
-        <section class="information fs-nomal d-block d-lg-flex justify-content-lg-between">
-            <div class="information-contact d-flex flex-column mx-auto mx-lg-0 text-lg-left justify-content-lg-start text-center text-lg-start">
-                <div class="information-contact_title fw-500 text-h2 fc-primary">
-                    Let’s keep in touch
-                </div>
-                <div class="information-contact_discription fw-400 text-h4 fc-white">
-                    We are taking care of your customers, and your business.
-                </div>
-                <div class="information-contact_box fw-500 text-h3 fc-white">
-                    <div class="information-contact_box-support fw-500 text-start text-normal gradient-color">
-                        Support & customer care
-                    </div>
-                    <div class="information-contact_box-phone d-flex align-items-center">
-                        <i class="information-icon fa-solid fa-phone"></i>                     
-                        <span>+61 412 774 034</span>
-                    </div>
-                    <div class="information-contact_box-email d-flex align-items-center">
-                        <i class="information-icon fa-solid fa-envelope"></i>
-                        <span>info@easyserv.au</span>
-                    </div>
-                </div>
+          </div>
+          <div class="footer-top_contact text-md-right fs-normal">
+            <div class="footer-top_contact-title fw-700 gradient-color text-h4">
+              Contact us
             </div>
-            <div class="information-wrapper position-relative">
-                <div class="information-wrapper-form bg-white text-small d-flex flex-column">
-                    <div class="form-group">
-                        <label for="name">Your name</label>
-                        <input type="email" class="form-control" id="name" placeholder="Your name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Example@gmail.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="mobile">Mobile number <span class="fc-light">(optional)</span></label>
-                        <input type="text" class="form-control" id="mobile" placeholder="Mobile number">
-                    </div>
-                    <div class="form-group">
-                        <label for="massage">Your message</label>
-                        <textarea class="form-control" id="massage" rows="2"></textarea>
-                      </div>
-                    <div class="information-wrapper-form_button d-flex align-items-center">
-                        <button type="button" class="button bg-color fc-black fw-500">Send</button>
-                        <span class="information-form_button-note fw-400 fc-light">By clicking on “Send” button, you agree to our Privacy Policy.</span>
-                    </div>
-                </div>
-                <img class="information-wrapper-image position-absolute d-none d-lg-block" src="./assets/information.png" alt="">
+            <div
+              class="footer-top_contact-connect fw-400 text-small fc-white d-flex flex-column"
+            >
+              <div>+61 412 774 034</div>
+              <div>info@easyserv.au</div>
             </div>
-        </section>
-
-
-        <!-- Footer Section -->
-        <section class="footer bg-footer">
-            <div class="footer-top d-flex flex-column text-center text-md-left flex-md-row justify-content-between">
-                <div class="footer-top_brand text-small fw-400 fs-normal d-flex flex-column">
-                    <img src="./assets/Logo.png" alt="" class="footer-top_brand-logo mx-auto mx-md-0">
-                    <div class="footer-top_brand-note fc-light">The modern service experience must be EASY.</div>
-                    <div class="footer-top_brand-menu fc-white d-flex flex-column flex-md-row">
-                        <span class="footer-top_brand-menu_item">Home</span>
-                        <span class="footer-top_brand-menu_item">Features</span>
-                        <span class="footer-top_brand-menu_item">Demo</span>
-                        <span class="footer-top_brand-menu_item">About us</span>
-                        <span class="footer-top_brand-menu_item">Login</span>
-                    </div>
-                </div>
-                <div class="footer-top_contact text-md-right fs-normal">
-                    <div class="footer-top_contact-title fw-700 gradient-color text-h4">
-                        Contact us
-                    </div>
-                    <div class="footer-top_contact-connect fw-400 text-small fc-white d-flex flex-column">
-                        <div>
-                            +61 412 774 034
-                        </div>
-                        <div>
-                            info@easyserv.au
-                        </div>
-                    </div>
-                    <div class="footer-top_contact-social fc-white d-flex justify-content-center">
-                        <i class="fa-brands fa-facebook-f bc-dark rounded-circle"></i>                      
-                        <i class="fa-brands fa-instagram bc-dark rounded-circle"></i>
-                        <i class="fa-brands fa-linkedin-in bc-dark rounded-circle"></i>
-                    </div>
-                </div>
+            <div
+              class="footer-top_contact-social fc-white d-flex justify-content-center"
+            >
+              <i class="fa-brands fa-facebook-f bc-dark rounded-circle"></i>
+              <i class="fa-brands fa-instagram bc-dark rounded-circle"></i>
+              <i class="fa-brands fa-linkedin-in bc-dark rounded-circle"></i>
             </div>
-            <div class="footer-bot fs-normal fw-400 text-small fc-light d-flex flex-column-reverse flex-lg-row justify-content-between">
-                <div class="footer-bot_license text-center text-lg-left">
-                    Copyright© 2023 easyserv Australia Pty Lty. All rights reserved.
-                </div> 
-                <div class="footer-bot_menu d-flex mx-auto mx-lg-0">
-                    <span>Terms of Service</span>
-                    <span>Privacy Policy</span>
-                    <span>Legal Information</span>
-                </div>
-            </div>
-        </section>
-
+          </div>
+        </div>
+        <div
+          class="footer-bot fs-normal fw-400 text-small fc-light d-flex flex-column-reverse flex-lg-row justify-content-between"
+        >
+          <div class="footer-bot_license text-center text-lg-left">
+            Copyright© 2023 easyserv Australia Pty Lty. All rights reserved.
+          </div>
+          <div class="footer-bot_menu d-flex mx-auto mx-lg-0">
+            <span>Terms of Service</span>
+            <span>Privacy Policy</span>
+            <span>Legal Information</span>
+          </div>
+        </div>
+      </section>
     </div>
 
-
-
-
     <script src="index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

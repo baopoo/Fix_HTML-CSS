@@ -333,7 +333,7 @@ body {
 @media (max-width: 767px) {
   .service-steps {
     position: relative;
-    margin-top: 62px;
+    margin: 62px 0 0 !important;
     transition: transform 0.5s linear;
     gap: 0;
   }
@@ -505,7 +505,7 @@ body {
 }
 
 .solution {
-  background: url("../assets/solution.png");
+  background: url("./assets/solution.png");
   padding: 90px 105px 90px 125px;
 }
 @media (min-width: 1400px) {
@@ -648,7 +648,7 @@ body {
 
 .comment {
   margin: 0 40px;
-  background: url("../assets/comment.jpg") no-repeat;
+  background: url("./assets/comment.jpg") no-repeat;
   background-size: cover;
   padding: 60px 47px 60px 60px;
   gap: 67px;

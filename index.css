@@ -20,6 +20,11 @@ body {
   margin-right: 0 !important;
 }
 
+.row > * {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .gradient-color {
   background: linear-gradient(124.32deg, #31cb9e 0.01%, #0faaa2 100.02%);
   -webkit-background-clip: text;

@@ -1,12 +1,12 @@
 @import url("https://fonts.cdnfonts.com/css/rubik");
 * {
   box-sizing: border-box;
-  font-family: "Rubik", sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
+  font-family: "Rubik", sans-serif;
 }
 
 .main {
@@ -14,13 +14,13 @@ body {
 }
 
 .row {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .row > * {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .gradient-color {
@@ -190,7 +190,7 @@ body {
     bottom: 0;
     z-index: 1;
     background: #05122a;
-    padding: 0 16px !important;
+    padding: 0 16px;
   }
 }
 @media (max-width: 767px) {
@@ -397,7 +397,7 @@ body {
 @media (max-width: 767px) {
   .service-steps {
     position: relative;
-    margin-top: 62px !important;
+    margin-top: 62px;
     transition: transform 0.5s linear;
     gap: 0;
   }
@@ -407,12 +407,12 @@ body {
   -webkit-backdrop-filter: blur(13.5139px);
           backdrop-filter: blur(13.5139px);
   border-radius: 8px;
-  padding: 40px 40px 56px 40px !important;
-  max-width: 32% !important;
+  padding: 40px 40px 56px 40px;
+  max-width: 32%;
 }
 @media (max-width: 767px) {
   .service-steps_card {
-    padding: 40px 40px 88px 40px !important;
+    padding: 40px 40px 88px 40px;
     flex: 1 0 100%;
     min-width: 354px;
   }
@@ -434,11 +434,11 @@ body {
   line-height: 20px;
 }
 .service-benefit {
-  margin-top: 73px !important;
+  margin-top: 73px;
 }
 @media (max-width: 991px) {
   .service-benefit {
-    margin-top: 0 !important;
+    margin-top: 0;
   }
 }
 @media (max-width: 767px) {
@@ -454,16 +454,16 @@ body {
 }
 .service-benefit_content {
   gap: 24px;
-  margin-top: 71px !important;
+  margin-top: 71px;
 }
 @media (min-width: 1200px) {
   .service-benefit_content {
-    margin-top: 101px !important;
+    margin-top: 101px;
   }
 }
 @media (min-width: 1400px) {
   .service-benefit_content {
-    margin-top: 141px !important;
+    margin-top: 141px;
   }
 }
 @media (max-width: 767px) {
@@ -501,36 +501,36 @@ body {
 
 @media (min-width: 992px) {
   .payment {
-    margin-right: 40px !important;
+    margin-right: 40px;
   }
 }
 @media (min-width: 1200px) {
   .payment {
-    margin-right: 80px !important;
+    margin-right: 80px;
   }
 }
 @media (min-width: 1400px) {
   .payment {
-    margin-right: 160px !important;
+    margin-right: 160px;
   }
 }
 @media (max-width: 767px) {
   .payment {
     padding-top: 160px;
-    margin: 0 !important;
+    margin: 0;
   }
 }
 .payment_image {
-  padding: 0 !important;
+  padding: 0;
 }
 .payment_content {
-  margin-top: 106px !important;
+  margin-top: 106px;
   gap: 24px;
-  padding: 0 !important;
+  padding: 0;
 }
 @media (max-width: 991px) {
   .payment_content {
-    margin: 0 16px !important;
+    margin: 0 16px;
     text-align: center;
   }
 }
@@ -882,7 +882,7 @@ body {
   gap: 8;
 }
 .information-wrapper-form_button button {
-  max-width: 80px !important;
+  max-width: 80px;
   padding: 10px 20px;
   border-radius: 32px;
 }

@@ -162,6 +162,7 @@ body {
 }
 @media (max-width: 767px) {
   .hero-header {
+    padding: 18px 16px;
     gap: 18px;
   }
 }
@@ -191,6 +192,7 @@ body {
     bottom: 0;
     z-index: 1;
     background: #05122a;
+    padding: 0 16px !important;
   }
 }
 @media (max-width: 767px) {
@@ -204,7 +206,7 @@ body {
 }
 @media (max-width: 767px) {
   .hero-header-right_contact {
-    padding: 24px 0 235px;
+    padding: 24px 0 88px;
   }
 }
 .hero-header-right_contact-title {
@@ -218,7 +220,7 @@ body {
 @media (max-width: 767px) {
   .hero-header-right_button {
     gap: 16px;
-    padding: 20px 16px;
+    padding: 20px 0;
   }
 }
 @media (max-width: 767px) {
@@ -349,12 +351,7 @@ body {
 }
 
 .service {
-  margin: 100px 0px 0px;
-}
-@media (min-width: 992px) {
-  .service {
-    margin: 100px 40px 0;
-  }
+  margin: 100px 40px 0px;
 }
 @media (min-width: 1200px) {
   .service {
@@ -402,7 +399,7 @@ body {
 @media (max-width: 767px) {
   .service-steps {
     position: relative;
-    margin: 62px 0 0 !important;
+    margin-top: 62px !important;
     transition: transform 0.5s linear;
     gap: 0;
   }
@@ -413,6 +410,7 @@ body {
           backdrop-filter: blur(13.5139px);
   border-radius: 8px;
   padding: 40px 40px 56px 40px !important;
+  max-width: 32% !important;
 }
 @media (max-width: 767px) {
   .service-steps_card {

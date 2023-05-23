@@ -24,6 +24,7 @@
     }
 
     @include mobile {
+      padding: 18px 16px;
       gap: 18px;
     }
 
@@ -52,6 +53,7 @@
         bottom: 0;
         z-index: 1;
         background: #05122a;
+        padding: 0 16px !important;
       }
 
       &_menu {
@@ -66,7 +68,7 @@
 
       &_contact {
         @include mobile {
-          padding: 24px 0 235px;
+          padding: 24px 0 88px;
         }
 
         &-title {
@@ -82,8 +84,7 @@
       &_button {
         @include mobile {
           gap: 16px;
-          padding: 20px 16px;
-          // max-width: 361px;
+          padding: 20px 0;
         }
 
         &-login {

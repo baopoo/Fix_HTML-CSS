@@ -31,7 +31,7 @@
     &_box {
       padding: 40px;
       background: rgba(255, 255, 255, 0.01);
-      border: 1px solid rgba(255, 255, 255, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.1);
       backdrop-filter: blur(8px);
       border-radius: 8px;
 
@@ -95,6 +95,10 @@
           border-radius: 32px;
         }
         &-note {
+          font-size: 12px;
+          line-height: 20px;
+        }
+        span {
           font-size: 12px;
           line-height: 20px;
         }

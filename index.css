@@ -79,7 +79,7 @@ body {
   font-size: 38px;
   line-height: 46px;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .text-h2 {
     font-size: 30px;
     line-height: 38px;
@@ -822,7 +822,7 @@ body {
 .information-contact_box {
   padding: 40px;
   background: rgba(255, 255, 255, 0.01);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
   border-radius: 8px;
@@ -887,6 +887,10 @@ body {
   border-radius: 32px;
 }
 .information-wrapper-form_button-note {
+  font-size: 12px;
+  line-height: 20px;
+}
+.information-wrapper-form_button span {
   font-size: 12px;
   line-height: 20px;
 }

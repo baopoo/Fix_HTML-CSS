@@ -82,7 +82,7 @@ $light-color: #888e9c;
   font-size: 38px;
   line-height: 46px;
 
-  @include tablet {
+  @include mobile {
     font-size: 30px;
     line-height: 38px;
   }

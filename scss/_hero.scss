@@ -144,14 +144,65 @@
     }
 
     &_image {
-      width: 70%;
+      margin: 0 40px 0;
+      @include xl {
+        margin: 0px 80px;
+      }
+      @include xxl {
+        margin: 0px 160px;
+      }
 
       @include tablet {
-        margin: 42px 0 0 0;
+        margin: 0 32px;
       }
+
       @include mobile {
-        min-width: 392px;
-        height: 454px;
+        margin: 0 16px;
+      }
+
+      div:first-child {
+        background: url("./assets/doublesubtract.png") no-repeat center center;
+        background-size: contain;
+
+        img {
+          max-width: 100%;
+          padding-top: 20px;
+
+          @include tablet {
+            max-width: 600px;
+            height: 370px;
+            padding-top: 10px;
+          }
+        }
+      }
+
+      div:nth-child(2) {
+        background: url("./assets/subtractsmall.png") no-repeat center center;
+        background-size: contain;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        img {
+          max-width: 100%;
+          max-height: 278px;
+        }
+      }
+
+      > img {
+        right: 0;
+        left: 0;
+        bottom: 0;
+        max-width: 513px;
+
+        @include xl {
+          max-width: 533px;
+        }
+
+        @include tablet {
+          max-width: 317px;
+        }
+        @include mobile {
+          max-width: 267px;
+        }
       }
     }
   }

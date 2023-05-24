@@ -9,29 +9,6 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
-.main {
-  width: 100%;
-}
-
-.row {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.row > * {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-p {
-  margin-bottom: 0;
-}
-
 .gradient-color {
   background: linear-gradient(124.32deg, #31cb9e 0.01%, #0faaa2 100.02%);
   -webkit-background-clip: text;
@@ -133,6 +110,32 @@ p {
 
 .fc-light {
   color: #888e9c;
+}
+
+.main {
+  width: 100%;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  cursor: pointer;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 .hero {

@@ -395,7 +395,7 @@ p {
   }
 }
 .service-title {
-  width: 573px;
+  max-width: 610px;
   margin: 0 auto;
 }
 @media (max-width: 991px) {
@@ -427,12 +427,13 @@ p {
     padding: 40px 40px 88px 40px;
     flex: 1 0 100%;
     min-width: 354px;
+    max-width: unset;
   }
 }
 .service-steps_card-icon {
   margin-bottom: 32px;
 }
-.service-steps_card-content_title {
+.service-steps_card-content span {
   margin-bottom: 16px;
 }
 .service-steps_pagination {

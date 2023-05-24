@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
 .footer {
   padding: 80px 40px 24px;
 
@@ -9,11 +11,11 @@
   }
 
   @include tablet {
-    padding: 80px 32px;
+    padding: 80px 32px 0;
   }
 
   @include mobile {
-    padding: 80px 16px;
+    padding: 80px 16px 0;
   }
 
   &-top {
@@ -69,11 +71,30 @@
   &-bot {
     padding-top: 24px;
     border-top: 1px solid $dark-color;
-    margin-top: 58px;
+    margin-top: 40px;
 
     @include tablet {
-      gap: 32px;
-      padding-bottom: 40px;
+      > span {
+        margin-top: 32px;
+        margin-bottom: 40px;
+      }
+    }
+
+    &_contact {
+      padding: 16px 0;
+      background: rgba(5, 18, 48, 0.9);
+      backdrop-filter: blur(12px);
+
+      span {
+        font-family: "Inter", sans-serif;
+      }
+    }
+
+    &_license {
+      @include mobile {
+        max-width: 297px;
+        margin: 0 auto;
+      }
     }
 
     &_menu {

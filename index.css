@@ -23,6 +23,15 @@ body {
   padding-right: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin-bottom: 0;
+}
+
 .gradient-color {
   background: linear-gradient(124.32deg, #31cb9e 0.01%, #0faaa2 100.02%);
   -webkit-background-clip: text;
@@ -593,7 +602,7 @@ body {
   height: 150px;
   margin-bottom: 88px;
 }
-.solution_content div:first-child {
+.solution_content span:first-child {
   margin-bottom: 8px;
 }
 .solution_application {
@@ -605,27 +614,27 @@ body {
 .solution_application div:first-child img {
   width: 100%;
 }
-.solution_application div:first-child div {
+.solution_application div:first-child span {
   margin: 30px 0 0;
 }
 @media (max-width: 991px) {
-  .solution_application div:first-child div {
+  .solution_application div:first-child span {
     margin: 29px 0 5px;
   }
 }
 @media (max-width: 767px) {
-  .solution_application div:first-child div {
+  .solution_application div:first-child span {
     margin: 24px 0 5px;
   }
 }
 .solution_application div:last-child img {
   width: 100%;
 }
-.solution_application div:last-child div {
+.solution_application div:last-child span {
   margin-top: 64px;
 }
 @media (max-width: 767px) {
-  .solution_application div:last-child div {
+  .solution_application div:last-child span {
     margin-top: 44px;
   }
 }

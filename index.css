@@ -217,16 +217,14 @@ p {
 }
 @media (max-width: 767px) {
   .hero-header-right_contact {
-    padding: 24px 0 88px;
+    padding: 24px 0 102px;
   }
-}
-.hero-header-right_contact-title {
-  margin-bottom: 16px;
 }
 .hero-header-right_contact-connect {
   line-height: 17px;
   gap: 16px;
   margin-bottom: 32px;
+  margin-top: 16px;
 }
 @media (max-width: 767px) {
   .hero-header-right_button {
@@ -259,12 +257,18 @@ p {
 }
 @media (max-width: 767px) {
   .hero-introduce {
+    min-height: 370px;
     margin-top: 66px;
     padding: 0 16px;
   }
 }
 .hero-introduce_content {
   gap: 16px;
+}
+@media (max-width: 767px) {
+  .hero-introduce_content {
+    min-height: 240px;
+  }
 }
 .hero-introduce_content-title {
   max-width: 782px;

@@ -68,16 +68,14 @@
 
       &_contact {
         @include mobile {
-          padding: 24px 0 88px;
+          padding: 24px 0 102px;
         }
 
-        &-title {
-          margin-bottom: 16px;
-        }
         &-connect {
           line-height: 17px;
           gap: 16px;
           margin-bottom: 32px;
+          margin-top: 16px;
         }
       }
 
@@ -122,6 +120,10 @@
 
     &_content {
       gap: 16px;
+
+      @include mobile {
+        min-height: 240px;
+      }
 
       &-title {
         max-width: 782px;
